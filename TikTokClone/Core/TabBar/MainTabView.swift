@@ -23,7 +23,7 @@ struct MainTabView: View {
                         Image(systemName: selectedTab == 1 ? "person.2.fill" : "person.2")
                             .environment(\.symbolVariants, selectedTab == 1 ? .fill : .none)
                         
-                        Text("Profile")
+                        Text("Friends")
                     }
                 }
                 .onAppear { selectedTab = 1 }
@@ -36,13 +36,13 @@ struct MainTabView: View {
                 .onAppear { selectedTab = 2 }
                 .tag(2)
             
-            Text("Profile")
+            NotificationView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 3 ? "heart.fill" : "heart")
                             .environment(\.symbolVariants, selectedTab == 3 ? .fill : .none)
                         
-                        Text("Profile")
+                        Text("Inbox")
                     }
                 }
                 .onAppear { selectedTab = 3 }
