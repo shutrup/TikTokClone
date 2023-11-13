@@ -51,7 +51,12 @@
 		1539F2BB2B01EF3C000BBB65 /* TikTokClone */ = {
 			isa = PBXGroup;
 			children = (
-				1539F2BC2B01EF3C000BBB65 /* TikTokCloneApp.swift */,
+				1539F2CF2B01EF92000BBB65 /* App */,
+				1539F2CE2B01EF8F000BBB65 /* Core */,
+				1539F2CD2B01EF89000BBB65 /* Extentions */,
+				1539F2CC2B01EF85000BBB65 /* Model */,
+				1539F2CB2B01EF7D000BBB65 /* Services */,
+				1539F2CA2B01EF73000BBB65 /* Utils */,
 				1539F2BE2B01EF3C000BBB65 /* ContentView.swift */,
 				1539F2C02B01EF3F000BBB65 /* Assets.xcassets */,
 				1539F2C22B01EF3F000BBB65 /* Preview Content */,
@@ -65,6 +70,129 @@
 				1539F2C32B01EF3F000BBB65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1539F2CA2B01EF73000BBB65 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1539F2CB2B01EF7D000BBB65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1539F2CC2B01EF85000BBB65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1539F2CD2B01EF89000BBB65 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1539F2CE2B01EF8F000BBB65 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1539F2D92B01EFDC000BBB65 /* Authentication */,
+				1539F2D82B01EFD4000BBB65 /* Comments */,
+				1539F2D72B01EFC8000BBB65 /* Components */,
+				1539F2D62B01EFBD000BBB65 /* Feed */,
+				1539F2D52B01EFB9000BBB65 /* Notifications */,
+				1539F2D42B01EFB7000BBB65 /* Profile */,
+				1539F2D32B01EFB3000BBB65 /* Root */,
+				1539F2D22B01EFB1000BBB65 /* Search */,
+				1539F2D12B01EFAB000BBB65 /* TabBar */,
+				1539F2D02B01EFA5000BBB65 /* UploadMedia */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1539F2CF2B01EF92000BBB65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1539F2BC2B01EF3C000BBB65 /* TikTokCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1539F2D02B01EFA5000BBB65 /* UploadMedia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		1539F2D12B01EFAB000BBB65 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1539F2D22B01EFB1000BBB65 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1539F2D32B01EFB3000BBB65 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		1539F2D42B01EFB7000BBB65 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1539F2D52B01EFB9000BBB65 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1539F2D62B01EFBD000BBB65 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		1539F2D72B01EFC8000BBB65 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1539F2D82B01EFD4000BBB65 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		1539F2D92B01EFDC000BBB65 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
