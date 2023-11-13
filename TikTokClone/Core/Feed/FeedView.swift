@@ -5,7 +5,7 @@ struct FeedView: View {
         ScrollView {
             LazyVStack(spacing: 0) {
                 ForEach(0 ..< 10) { post in
-//                    FeedCell(post: post)
+                    FeedCell(post: post)
                 }
             }
             .scrollTargetLayout()
